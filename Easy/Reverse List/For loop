@@ -1,0 +1,7 @@
+function reverseList(list) {
+  const newList = []; 
+  for (let x = 0; x < list.length;x++) { // Loops through the given list adding each element at the start of "newList"
+    newList.unshift(list[x])
+  };
+  return newList;
+}
